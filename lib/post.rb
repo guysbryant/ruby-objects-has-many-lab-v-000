@@ -10,7 +10,7 @@ class Post
     self.author.name
   end
   
-  def all
+  def self.all
     @@all
   end
 end
